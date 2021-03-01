@@ -2,14 +2,26 @@
 
 <Head>
     <title>View Master Hw7</title>
-    <script.src="script.js">
-        <link rel="stylesheet" href="style.css" text="text/css">
-
-        </script>
-
+    <script src="script.js">
+    </script>
+    <link rel="stylesheet" href="style.css" text="text/css">
 </Head>
 
-<body>
+<body onload="initalizeArray();">
+
+    <div id="title">
+        <h1>Bird Viewer</h1>
+    </div>
+    <img id="pic" width="1000" height="600" img src="bald.jpg">
+    <br>
+    <div id="artist">2012</div>
+    <div id="year">
+        <h2>Welcome to the Magestic Bird Viewer</h2>
+    </div>
+
+    <div id="extra">Anthony</div>
+    <br>
+    <button id="btnSubmit" onclick="accessInfo();"> Next photo</button>
 
 </body>
 
